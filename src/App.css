@@ -52,5 +52,14 @@
     left: 20%;
   }
 }
+@media screen and (max-width: 411px) {
+  .carshop{
+    left: 80% !important;
+  }
+  .cards {
+    width: 70%;
+    left: 15%;
+  }
+}
 
 

@@ -179,10 +179,9 @@ const NavBar: React.FC<NavBarProps> = ({ selectedItems, items, setSelectedItems 
             
           )}
           <Button
-            style={{ width: '100%',height:'100px', marginTop: '20px' }} // Definindo a largura como 100% e um espaço superior de 20px
-            type="primary" // Estilo primário do botão
+            style={{ width: '100%',height:'100px', marginTop: '20px' }} 
+            type="primary" 
             onClick={() => {
-                // Adicione aqui a lógica para finalizar a compra
             }}
             >
             Finalizar Compra
