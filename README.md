@@ -1,46 +1,29 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Loja MKS - Frontend
 
-## Available Scripts
+ Este projeto é uma aplicação frontend para uma loja online de produtos, chamada Loja PS. O design da interface de usuário e experiência do usuário (UI/UX) foi criado no Figma, incluindo um design system completo e a fonte utilizada na aplicação. A aplicação consome uma API REST de produtos para exibir a lista de produtos disponíveis na loja. 
 
-In the project directory, you can run:
+## Ferramentas utilizadas
 
-### `npm start`
+Para o desenvolvimento deste projeto, utilizamos as seguintes ferramentas e tecnologias:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. TypeScript: Linguagem de programação utilizada para adicionar tipagem estática ao JavaScript, melhorando a robustez e a manutenibilidade do código.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+2. React : Biblioteca/framework para construção de interfaces de usuário. 
+3. React-query: Biblioteca para gerenciamento de estado de dados assíncronos, como chamadas à API, proporcionando uma melhor experiência de usuário com cache, sincronização, etc.
 
-### `npm test`
+4. Styled-components ou SASS: Ferramentas para estilização da aplicação. Ambas permitem escrever CSS moderno com suporte a funcionalidades avançadas.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+5. Framer-motion: Biblioteca para animações em React, usada para criar transições suaves e interativas.
 
-### `npm run build`
+6. Jest: Framework de testes para JavaScript, utilizado para garantir a qualidade e a funcionalidade do código através de testes unitários e de integração.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Deploy  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+hospedado no Netlify
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+link: https://lojamksodevpablo.netlify.app/
 
-### `npm run eject`
+[@odevpablo]
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Linkedin: https://www.linkedin.com/in/odevpablo/
