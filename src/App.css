@@ -44,6 +44,12 @@
   }
 }
 @media screen and (max-width: 576px) {
+  .barText{
+    left: 10%;
+  }
+  .barText p{
+    left: 80px;
+  }
   .carshop{
     left: 80% !important;
   }
@@ -54,11 +60,17 @@
 }
 @media screen and (max-width: 411px) {
   .carshop{
-    left: 80% !important;
+    left: 70% !important;
   }
   .cards {
     width: 70%;
     left: 15%;
+  }
+  .barText{
+    left: auto;
+  }
+  .barText p{
+    left: 70px;
   }
 }
 
