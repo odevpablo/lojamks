@@ -57,12 +57,12 @@ const App: React.FC = () => {
             }}>
         <List
             grid={{ 
-              xs: 1, // 1 coluna em dispositivos extra small (menor que 576px)
-              sm: 1, // 2 colunas em dispositivos small (576px ou mais)
-              md: 1, // 2 colunas em dispositivos medium (768px ou mais)
-              lg: 4, // 4 colunas em dispositivos large (992px ou mais)
-              xl: 4, // 4 colunas em dispositivos extra large (1200px ou mais)
-              xxl: 4 // 4 colunas em dispositivos extra extra large (1600px ou mais)
+              xs: 1, 
+              sm: 1, 
+              md: 1, 
+              lg: 4, 
+              xl: 4, 
+              xxl: 4 
             }}
           className='cards'
           dataSource={items}
